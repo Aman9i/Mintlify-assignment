@@ -1,0 +1,100 @@
+#hero2-1{ 
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+    margin-top: 40px;
+    
+}
+#child1{
+    border: 1px solid rgba(72, 72, 72, 0.085);
+    border-radius: 22px;
+}
+.text1{
+    color: rgb(12,140,94);
+    font-family: "Geist Mono", monospace;
+    padding-top: 18px;
+    padding-left: 20px;
+   
+}
+.text2{
+    color: rgb(8,9,10);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 20px; ;
+}
+.text3{
+    color: rgb(8,9,10,0.8);
+    font-family: "Inter"; 
+    padding-left: 20px;  
+}
+#child2{
+    border: 1px solid rgba(72, 72, 72, 0.085);
+     border-radius: 22px;
+}
+.text-1{
+    color: rgb(12,140,94);
+    font-family: "Geist Mono", monospace;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+.text-2{
+    color: rgb(8,9,10);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+     padding-left: 20px;
+}
+
+.text-3{
+   color: rgb(8,9,10,0.8);
+    font-family: "Inter"; 
+     padding-left: 20px; 
+     
+}
+#hero2-2{
+    border: 1px solid   rgba(72, 72, 72, 0.085);  
+    border-radius: 22px;
+    text-align: center;
+}
+
+.txt1{
+     color: rgb(12,140,94);
+    font-family: "Geist Mono", monospace;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+.txt2{
+     color: rgb(8,9,10);
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+     padding-top: 20px;
+}
+.txt3{
+ color: rgb(8,9,10,0.8);
+    font-family: "Inter"; 
+     padding: 20px;     
+}
+.parent{
+    margin: 40px 240px;
+}
+@media screen and (max-width:600px){
+    #hero2-1{
+        display: flex;
+        flex-direction: column;
+        margin: 0 20px;
+        margin-top: 20px;
+    }
+    #hero2-2{
+        width:100%;
+    }
+    .parent{
+        margin: 20px;
+        
+    }
+    #vid{
+        width:100%;
+    }
+    
+}
